@@ -1,2 +1,2 @@
 #!/bin/bash
-go run ./cmd/manager-env -initialize -load
+go run ./cmd/manage-env -initialize -load

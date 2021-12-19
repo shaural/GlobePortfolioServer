@@ -9,10 +9,11 @@ hooks:
       timeout: 300
       runas: root
   AfterInstall:
-    - location: scripts/setup.sh
+    - location: scripts/build.sh
       timeout: 300
       runas: root
   ApplicationStart:
+    - location: scripts/configure_db.sh
     - location: scripts/start_server.sh
       timeout: 300
       runas: root

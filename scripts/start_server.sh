@@ -1,2 +1,2 @@
 #!/bin/bash
-go run ./cmd/server
+go run .server
